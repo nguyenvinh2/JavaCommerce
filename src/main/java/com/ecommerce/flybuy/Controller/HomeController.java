@@ -1,4 +1,4 @@
-package com.ecommerce.flybuy;
+package com.ecommerce.flybuy.Controller;
 
 
 import org.springframework.stereotype.Controller;

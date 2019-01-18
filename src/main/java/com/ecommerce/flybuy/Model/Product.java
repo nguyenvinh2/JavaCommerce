@@ -1,7 +1,6 @@
-package com.ecommerce.flybuy;
+package com.ecommerce.flybuy.Model;
 
 import java.io.Serializable;
-import javax.persistence.*;
 import java.util.Set;
 
 public class Product {
