@@ -8,11 +8,20 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="../static/css/style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </div>
 
 <div th:fragment="nav-bar">
     <nav class="navbar">
-        <i class="fas fa-bars"></i>
+        <i onclick="openNav()" class="fas fa-bars"></i>
+        <div id="side-nav" class="sidenav">
+            <div class="side-header">
+                <span class="closebtn" onclick="closeNav()">&times;</span>
+                <h2>Hello, <strong>Sign In</strong></h2></div>
+            <a href="/">Home</a>
+            <a href="/">Shop</a>
+            <a href="/">Account</a>
+        </div>
         <h2 id="title">Fly-Buy</h2>
         <div class="login dropdown">
             <h2>Login</h2>
@@ -35,7 +44,7 @@
                         <br>
                     </div>
 
-                    <div class="containers" style="background-color:#f1f1f1">
+                    <div class="containers">
                         <span class="signup"> New? <a href="#">Sign Up!</a></span>
                     </div>
                 </form>
@@ -43,5 +52,8 @@
         </div>
     </nav>
 </div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="../static/js/app.js"></script>
 </body>
 </html>
