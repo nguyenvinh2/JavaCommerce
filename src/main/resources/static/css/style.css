@@ -1,0 +1,113 @@
+.navbar{
+    background-color:lightseagreen;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: azure;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.side-header{
+    margin-top: 0px;
+    background-color: darkblue;
+    color: white;
+    padding: 14px;
+}
+
+.sidenav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .closebtn:hover, a:hover, #open-button:hover {
+    color: deepskyblue;
+    cursor: pointer;
+}
+
+.closebtn {
+    float: right;
+    font-size: 36px;
+    position: absolute;
+    top: -15px;
+    right: 5px;
+
+}
+
+
+#title{
+    font-family: 'Open Sans', sans-serif;
+}
+.fa-bars {
+    padding: 5px;
+}
+
+.fa-bars:hover{
+    border: thin solid azure;
+    border-radius: 3px;
+}
+
+.login{
+    border: thin solid lightseagreen;
+    border-radius: 3px;
+}
+
+.login h2{
+    display: inline-block;
+    padding: 5px;
+}
+
+.login i {
+    display: inline-block;
+    padding: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    margin-left: -175px;
+}
+
+.login:hover{
+    border: thin solid azure;
+    border-radius: 3px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
