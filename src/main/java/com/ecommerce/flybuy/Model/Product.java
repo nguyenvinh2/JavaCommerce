@@ -1,9 +1,13 @@
 package com.ecommerce.flybuy.Model;
 
-import java.io.Serializable;
 import java.util.Set;
-//import javax.persistence.*;
+import javax.persistence.*;
 
-//@Entity
+@Entity
 public class Product {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    public int id;
+    public string Name;
+    public string Image;
 }
