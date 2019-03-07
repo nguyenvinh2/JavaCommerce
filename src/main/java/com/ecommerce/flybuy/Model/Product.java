@@ -7,7 +7,7 @@ import javax.persistence.*;
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int id;
-    public string Name;
-    public string Image;
+    public int ID;
+    public String Name;
+    public String Image;
 }
